@@ -1,0 +1,4 @@
+.escolha-bicicleta .opcoes-bicicleta{
+    display: flex;
+    gap: 3rem;
+}

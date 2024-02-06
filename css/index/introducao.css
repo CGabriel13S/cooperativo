@@ -1,0 +1,14 @@
+main .introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.introducao .introducao-texto{  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;   
+}
+
+.introducao-texto button{
+    align-self: flex-start;
+}

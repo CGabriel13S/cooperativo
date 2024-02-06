@@ -1,0 +1,10 @@
+header{
+    padding: 3rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    gap: 1rem;
+}
