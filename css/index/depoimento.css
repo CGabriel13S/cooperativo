@@ -1,0 +1,17 @@
+main .depoimento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-texto{
+    display: grid;
+    gap: 5rem;
+}
+
+.depoimento-texto > p{
+    align-self: center;
+}
+
+.depoimento-texto > span{
+    text-align: right;
+}
