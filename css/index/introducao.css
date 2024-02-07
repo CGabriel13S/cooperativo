@@ -2,10 +2,6 @@
     background-color: black;
 }
 
-.introducao img{
-    width: 75%;
-}
-
 .introducao .container{
     margin-bottom: 15rem;
     color: white;
@@ -15,7 +11,6 @@
 }
 
 .container .introducao-texto{  
-    padding: 6rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;   
@@ -23,10 +18,12 @@
 }
 
 .introducao-texto > h1{
+    max-width: 15ch;
     font-size: 4rem;
 }
 
 .introducao-texto p{
+    max-width: 40ch;
     color: rgb(182, 170, 170);
     font-size: 1.5rem;
 }
