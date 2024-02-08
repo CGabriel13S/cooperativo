@@ -1,5 +1,5 @@
 .escolha-bicicleta h2{
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     font-size: 4rem;
 }
 
@@ -30,7 +30,7 @@
     color: rgb(90, 86, 86);
 }
 
-.opcoes-bicicleta a::before{
+.bicicletas a::before{
     content: "";
     width: 12px;
     height: 8px;
