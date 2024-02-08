@@ -1,0 +1,16 @@
+main .seguros-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.seguros h2{
+    margin-bottom: 3rem;
+}
+
+.seguros-container ul{
+    margin-top: 1rem;
+}
+
+ul li{
+    margin-bottom: 1rem;
+}

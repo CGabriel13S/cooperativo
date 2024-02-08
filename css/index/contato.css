@@ -1,0 +1,9 @@
+main .contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contato .logos-redes{
+    display: flex;
+    gap: 1rem;
+}
