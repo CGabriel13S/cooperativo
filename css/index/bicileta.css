@@ -19,3 +19,13 @@
   font-size: 4rem;
 }
 
+/*  bicicletas  */
+
+.nimbus-stark {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.nimbus-img {
+  max-width: 100%;
+}
