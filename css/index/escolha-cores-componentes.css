@@ -1,16 +1,16 @@
 main .cores-componentes{
     margin: 10rem 0;
-    background-color: var(--cor-12);
+    background-color: var(--cor-11);
 }
 
 .cores-componentes-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 870px;
+    grid-template-rows: 890px;
 }
 
 .cores-componentes .cores-componentes-descricao{
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 2.5rem;
     color: var(--cor-0);
     display: flex;
@@ -29,9 +29,22 @@ main .cores-componentes{
 }
 
 .texto > p{
-    color: var(--cor-5);
+    color: var(--cor-4);
     font-size: 1.5rem;
     line-height:1.8rem;
+}
+
+.texto button{
+    margin: 2rem 0;
+}
+
+.texto button > a{
+    padding: 0;
+    color: var(--cor-p2);
+    font-size: 1.6rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .cores-componentes-descricao .componentes{
@@ -54,5 +67,5 @@ main .cores-componentes{
 
 .caracteristica p{
     font-size: 1.1rem;
-    color: var(--cor-5);
+    color: var(--cor-4);
 }
