@@ -1,15 +1,15 @@
 header{
-    background-color: black;
+    background: black;
 }
 
 header .container{
-    padding: 3rem 1.5rem;
+    padding: 2rem;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
-.container > span{
+.container > img{
     font-size: 2.5rem;
     font-weight: bolder;
 }

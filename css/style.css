@@ -7,3 +7,9 @@
 @import '/css/index/depoimento.css';
 @import '/css/index/seguros.css';
 @import '/css/index/contato.css';
+@import '/css/index/bicileta.css';
+
+
+/*   PAGE BICICLETA    */
+
+@import '/css/bicicleta/bicicleta.css';
