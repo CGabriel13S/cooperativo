@@ -1,17 +1,37 @@
 main .depoimento{
+    margin-top: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+}
+
+.depoimento > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .depoimento-texto{
+    padding: 3rem;
+    background-color: var(--cor-p1);
     display: grid;
-    gap: 5rem;
 }
 
 .depoimento-texto > p{
+    margin-top: 5rem;
+    padding-left: 8.5rem;
+    font-size: 2.5rem;
+    text-align: left;
     align-self: center;
+}
+
+.depoimento-texto p .aspas{
+    font-size: 12rem;
 }
 
 .depoimento-texto > span{
     text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--cor-9);
 }
