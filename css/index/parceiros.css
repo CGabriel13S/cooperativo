@@ -1,5 +1,21 @@
+main .parceiros h2{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
 .parceiros .logos-parceiros{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.linha::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: var(--cor-4);
+    position: absolute;
+    top: 85px;
 }
