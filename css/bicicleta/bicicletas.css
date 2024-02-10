@@ -19,13 +19,45 @@
   font-size: 4rem;
 }
 
-/*  bicicletas  */
+/*  bicicletas  nimbus  */
 
 .nimbus-stark {
 display: grid;
 grid-template-columns: 1fr 1fr;
+padding-top: 50px;
+gap: 30px;
+padding-bottom: 50px;
 }
 
 .nimbus-img {
   max-width: 100%;
 }
+
+/*  bicicletas  magic  */
+
+.magic-might {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-11);
+  padding-top: 50px;
+gap: 30px;
+padding-bottom: 50px;
+  }
+  
+  .magic-img {
+    max-width: 100%;
+  }
+
+  /*  bicicletas  nebula  */
+
+  .nebula-cosmic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+gap: 30px;
+padding-bottom: 50px;
+    }
+    
+    .nebula-cosmic {
+      max-width: 100%;
+    }
