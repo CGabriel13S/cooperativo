@@ -1,0 +1,13 @@
+main .perguntas{
+    height: 600px;
+    margin-top: 7rem;
+}
+
+.perguntas h2{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+
+.perguntas ul{
+    display: initial;
+}
