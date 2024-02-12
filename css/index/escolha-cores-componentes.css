@@ -6,7 +6,7 @@ main .cores-componentes{
 .cores-componentes-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 890px;
+    grid-template-rows: 940px;
 }
 
 .cores-componentes .cores-componentes-descricao{
@@ -45,6 +45,10 @@ main .cores-componentes{
     text-decoration: underline;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+button > a:hover{
+    color: var(--cor-0);
 }
 
 .cores-componentes-descricao .componentes{
