@@ -1,14 +1,71 @@
 main .cores-componentes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: 10rem 0;
+    background-color: var(--cor-11);
 }
 
-.cores-componentes .cores-componentes-texto{
+.cores-componentes-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 890px;
+}
+
+.cores-componentes .cores-componentes-descricao{
+    margin-top: 2rem;
+    padding: 2.5rem;
+    color: var(--cor-0);
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.cores-componentes .componentes{
+.cores-componentes-descricao .texto p:first-child{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.texto h2{
+    margin: 2rem 0;
+    font-size: 5rem;
+}
+
+.texto > p{
+    color: var(--cor-4);
+    font-size: 1.5rem;
+    line-height:1.8rem;
+}
+
+.texto button{
+    margin: 2rem 0;
+}
+
+.texto button > a{
+    padding: 0;
+    color: var(--cor-p2);
+    font-size: 1.6rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cores-componentes-descricao .componentes{
+    color: var(--cor-0);
     display: flex;
+    gap: 1.5rem;
+}
+
+.componentes .caracteristica{
+    line-height: 1.3rem;
+}
+
+.caracteristica span{
+    margin: 0.8rem 0;
+    color: var(--cor-0);
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.caracteristica p{
+    font-size: 1.1rem;
+    color: var(--cor-4);
 }
