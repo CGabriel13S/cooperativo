@@ -1,6 +1,8 @@
 main .perguntas{
     height: 600px;
     margin-top: 7rem;
+    margin-bottom: 7rem;
+
 }
 
 .perguntas h2{
@@ -10,4 +12,25 @@ main .perguntas{
 
 .perguntas ul{
     display: initial;
+}
+
+.perguntas ul li{
+    padding: 1.2rem;
+    font-weight: bolder;
+    position: relative;
+}
+
+.perguntas ul li:nth-child(odd){
+    background-color: var(--cor-1);
+}
+
+.perguntas ul li::before{
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: orange;
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: 28px;
 }
