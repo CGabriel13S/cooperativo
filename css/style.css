@@ -23,3 +23,6 @@
 
 @import '/css/seguros/vantagens.css';
 @import '/css/seguros/perguntas.css';
+
+/*   PAGE ORÇAMENTO    */
+@import '/css/orcamento/orcamento.css';
