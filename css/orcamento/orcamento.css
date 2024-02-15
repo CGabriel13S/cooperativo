@@ -26,7 +26,7 @@ main .container-orcamento{
 }
 
 .container-form .opcao{
-    padding: 5rem;
+    padding: 4rem 3rem;
     background-color: var(--cor-12);
 }
 
@@ -37,13 +37,47 @@ main .container-orcamento{
 }
 
 .opcao button{
-    margin-right: 2rem;
-    width: 11rem;
+    margin-right: 1.5rem;
+    width: 9rem;
+    font-size: 0.9rem;
     border-radius: 0.3rem;
+    color: var(--cor-0);
     background-color: var(--cor-10);
 }
 
 .container-form .formulario{
-    padding: 4rem;
+    padding: 0 4rem;
+    border: 1px solid var(--cor-2);
     background-color: var(--cor-0);
+}
+
+.formulario h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: var(--cor-12);
+    text-transform: uppercase;
+}
+
+.formulario label{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.formulario .nome-sobrenome{
+    display: flex;
+    gap: 2rem;
+}
+
+.formulario .form-entrega{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.formulario button{
+    margin-bottom: 4rem;
+    border-radius: 0.3rem;
+    background-color: var(--cor-p2);
 }
