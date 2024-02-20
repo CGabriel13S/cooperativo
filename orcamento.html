@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikcraft - orçamento</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="/img/bikcraft.svg">
+            <ul>
+                <li><a href="bicicleta.html">Bicicletas</a></li>
+                <li><a href="#">Seguros</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="container-orcamento">
+            <div class="container">
+                <span>cotações no seu email</span>
+                <h1>solicite um orçamento<span class="ponto">.</span></h1>
+                <div class="container-form container">
+                    <div class="opcao">
+                        <h2>bikcraft ou seguro?</h2>
+                        <form action="./">
+                            <button><input type="checkbox" name="bikcraft" id="bikcraft">Bikcraft</button>
+                            <button><input type="checkbox" name="seguros" id="seguros">Seguros</button>
+                        </form>
+                    </div>
+                    <div class="formulario">
+                        <h2>dados pessoais</h2>
+                        <form action="./">
+                            <div class="nome-sobrenome">
+                                <div>
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome" name="nome">
+                                </div>
+
+                                <div>
+                                    <label for="sobrenome">Sobrenome</label>
+                                    <input type="text" id="sobrenome" name="sobrenome">
+                                </div>
+                            </div>
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </form>
+
+                        <h2>entrega</h2>
+                        <form action="./">
+                            <div class="form-entrega">
+                                <div>
+                                    <label for="cep">CEP</label>
+                                    <input type="text" id="cep" name="cep" placeholder="00000-000">
+                                </div>
+                                <div>
+                                    <label for="numero">Número</label>
+                                    <input type="number" id="numero" name="numero">
+                                </div>
+                                <div>
+                                    <label for="logradouro">Logradouro</label>
+                                    <input type="text" id="logradouro" name="logradouro">
+                                </div>
+                                <div>
+                                    <label for="bairro">Bairro</label>
+                                    <input type="text" id="bairro" name="bairro">
+                                </div>
+                                <div>
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" id="cidade" name="cidade">
+                                </div>
+                                <div>
+                                    <label for="estado">Estado</label>
+                                    <input type="text" id="estado" name="estado">
+                                </div>
+                            </div>
+                        </form>
+                        <button><a href="#">solicitar orçamento</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="contato">
+            <div class="container-contato container">
+                <img src="/img/bikcraft.svg" alt="">
+                <div class="meios-de-contato">
+                    <h3>contato</h3>
+                    <div class="contato-digital">
+                        <p>+55 21 9999-9999</p>
+                        <p>contato@bikcraft.com</p>
+                    </div>
+                    <div class="endereco">
+                        <p>Rua Ali Perto, 42 - Botafogo</p>
+                        <p>Rio de Janeiro - RJ</p>
+                    </div>
+                    <div class="logos-redes">
+                        <img src="/img/redes/instagram.svg">
+                        <img src="/img/redes/facebook.svg">
+                        <img src="/img/redes/youtube.svg">
+                    </div>
+                </div>
+                <div class="outras-informacoes">
+                    <h3>informações</h3>
+                    <ul>
+                        <li><a href="bicicleta.html">Bicicletas</a></li>
+                        <li><a href="seguros.html">Seguros</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+</body>
+
+</html>

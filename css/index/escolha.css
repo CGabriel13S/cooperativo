@@ -1,4 +1,41 @@
+.escolha-bicicleta h2{
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+}
+
 .escolha-bicicleta .opcoes-bicicleta{
     display: flex;
     gap: 3rem;
+    position: relative;
+}
+
+.opcoes-bicicleta .bicicletas{
+    cursor: pointer;
+}
+
+.bicicletas img{
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.opcoes-bicicleta a{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.opcoes-bicicleta a > span{
+    margin-left: 1.1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(90, 86, 86);
+}
+
+.bicicletas a::before{
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: orange;
+    display: block;
+    position: absolute;
+    top: 28.25rem;
 }

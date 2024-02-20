@@ -1,0 +1,135 @@
+.barra-nome {
+  background: #111111;
+  color: #ffffff;
+  padding: 60px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+}
+
+.barra-nome h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "roboto", Helvetica, sans-serif;
+  font-weight: 500;
+  color: var(--cor-5);
+}
+
+.barra-nome h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+/*  bicicletas  nimbus  */
+
+.nimbus-stark {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.preco {
+  background: var(--cor-12);
+  display: inline-block;
+  padding: 7px 15px 7px 7px;
+  color: var(--cor-0);
+  top: 40px;
+  right: 0;
+}
+
+.conteudo-nimbus h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.conteudo-nimbus p {
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-8);
+  line-height: 1.7rem;
+}
+
+
+
+/*  bicicletas  magic  */
+
+.magic-might {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-11);
+  padding-top: 50px;
+  gap: 30px;
+  padding-bottom: 50px;
+  color: var(--cor-5);
+}
+
+.conteudo-magic > h3 {
+  color: var(--cor-0);
+}
+
+.conteudo-magic h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.conteudo-magic p {
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-8);
+  line-height: 1.7rem;
+}
+
+/*  bicicletas  nebula  */
+
+.nebula-cosmic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.nebula-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.conteudo-nebula h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.conteudo-nebula p {
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-8);
+  line-height: 1.7rem;
+}
+
+/*  botão  */
+
+.button-bicicleta {
+  display: flex;
+  flex-wrap: nowrap;
+  background: var(--cor-p1);
+  border-radius: 5px;
+  padding: 0 35px ;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  justify-content: end;
+  align-items: end;
+}
+
+.button-bicicleta a {
+  color: var(--cor-p5);
+}
+
+.vantangens-nimbus-stark {
+  display: flex;
+  align-items: end;
+  gap: 15rem;
+}
+

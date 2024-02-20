@@ -1,0 +1,83 @@
+main .container-orcamento{
+    margin-bottom: 35rem;
+    background-color: var(--cor-11);
+    display: grid;
+    grid-template-rows: 700px;
+}
+
+.container-orcamento .container > span{
+    padding-top: 5rem;
+    font-size: 1.2rem;
+    color: var(--cor-5);
+    text-transform: uppercase;
+    display: block;
+}
+
+.container-orcamento .container > h1{
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    color: var(--cor-0);
+}
+
+.container-orcamento .container-form{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-form .opcao{
+    padding: 4rem 3rem;
+    background-color: var(--cor-12);
+}
+
+.opcao > h2{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--cor-5);
+}
+
+.opcao button{
+    margin-right: 1.5rem;
+    width: 9rem;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    color: var(--cor-0);
+    background-color: var(--cor-10);
+}
+
+.container-form .formulario{
+    padding: 0 4rem;
+    border: 1px solid var(--cor-2);
+    background-color: var(--cor-0);
+}
+
+.formulario h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: var(--cor-12);
+    text-transform: uppercase;
+}
+
+.formulario label{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.formulario .nome-sobrenome{
+    display: flex;
+    gap: 2rem;
+}
+
+.formulario .form-entrega{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.formulario button{
+    margin-bottom: 4rem;
+    border-radius: 0.3rem;
+    background-color: var(--cor-p2);
+}

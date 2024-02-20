@@ -1,14 +1,38 @@
-main .introducao{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.introducao{
+    background-color: black;
 }
 
-.introducao .introducao-texto{  
+.introducao .container{
+    margin-bottom: 15rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
+}
+
+.container .introducao-texto{  
     display: flex;
     flex-direction: column;
     gap: 1.5rem;   
+    align-self: center;
+}
+
+.introducao-texto > h1{
+    max-width: 15ch;
+    font-size: 4rem;
+}
+
+.introducao-texto p{
+    max-width: 40ch;
+    color: rgb(182, 170, 170);
+    font-size: 1.5rem;
 }
 
 .introducao-texto button{
+    background-color: orange;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 1rem;
     align-self: flex-start;
 }

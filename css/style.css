@@ -1,5 +1,28 @@
+/*   PAGE INDEX    */
+
 @import '/css/global.css';
 @import '/css/index/header.css';
 @import '/css/index/introducao.css';
 @import '/css/index/escolha.css';
-@import '/css/index/escolha-cores-componentes.css'
+@import '/css/index/escolha-cores-componentes.css';
+@import '/css/index/parceiros.css';
+@import '/css/index/depoimento.css';
+@import '/css/index/seguros.css';
+@import '/css/index/contato.css';
+@import '/css/index/bicileta.css';
+
+
+/*   PAGE BICICLETA    */
+
+@import '/css/bicicleta/bicicletas.css';
+@import '/bicicletas/bicicleta-01.html';
+@import '/bicicletas/bicicleta-02.html';
+@import '/bicicletas/bicicleta-03.html';
+
+/*   PAGE SEGUROS    */
+
+@import '/css/seguros/vantagens.css';
+@import '/css/seguros/perguntas.css';
+
+/*   PAGE ORÇAMENTO    */
+@import '/css/orcamento/orcamento.css';

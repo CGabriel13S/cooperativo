@@ -1,0 +1,92 @@
+main .seguros{
+    background-color: var(--cor-11);
+    padding: 3rem;
+}
+
+.seguros .container > p{
+    color: var(--cor-6);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.seguros .container > h2{
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    color: var(--cor-0);
+}
+
+.container .seguros-container{
+    color: var(--cor-0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.seguros-container .seguro-prata, .seguro-ouro{
+    padding: 3rem 4rem;
+    background-color: var(--cor-12);
+}
+
+.seguro-prata{
+    margin-top: 4.5rem;
+    height: 20rem;
+}
+
+.seguro-prata .valor h3{
+    color: var(--cor-6);
+    text-transform: uppercase;
+}
+
+.seguro-ouro{
+    height:27rem;
+}
+
+.seguro-ouro .valor h3{
+    color: var(--cor-p1);
+    text-transform: uppercase;
+}
+
+.valor{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.valor p{
+    font-weight: bolder;
+}
+
+.valor p > span{
+    font-size: 1.2rem;
+    color: var(--cor-6);
+}
+
+.seguros-container ul{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    list-style: circle;
+}
+
+ul li{
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.button-prata, .button-prata > a{
+    background-color: var(--cor-10);
+    color: var(--cor-0);
+}
+
+.button-ouro, .button-ouro > a{
+    background-color: var(--cor-p2);
+}

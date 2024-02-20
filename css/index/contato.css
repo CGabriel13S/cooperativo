@@ -1,0 +1,65 @@
+main .contato{
+    background-color: var(--cor-12);
+    height: 500px;
+}
+
+.contato .container-contato{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    color: white;
+}
+
+.container-contato .meios-de-contato{
+    font-weight: bolder;
+    display: grid;
+    gap: 3rem;
+}
+
+.meios-de-contato h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.contato-digital, .endereco{
+    color: var(--cor-6);
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.contato-digital::after, .endereco::after{
+    content: "";
+    width: 350px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    background-color: var(--cor-10);
+    top: 4.2rem;
+
+}
+
+.contato .logos-redes{
+    display: flex;
+    gap: 1rem;
+}
+
+.outras-informacoes{
+    margin-left: 5rem;
+}
+
+.outras-informacoes h3{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.outras-informacoes ul a{
+    padding: 0;
+    font-size: 1.2rem;
+    color: var(--cor-6);
+}
+
+.container-contato footer{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+    color: var(--cor-6);
+}
