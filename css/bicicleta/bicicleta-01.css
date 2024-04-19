@@ -1,0 +1,9 @@
+.bicicleta-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  background: var(--cor-11);
+}
+
+.titulo-bike {
+    
+}
