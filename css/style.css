@@ -1,3 +1,5 @@
+/*   PAGE INDEX    */
+
 @import '/css/global.css';
 @import '/css/index/header.css';
 @import '/css/index/introducao.css';
@@ -8,11 +10,3 @@
 @import '/css/index/seguros.css';
 @import '/css/index/contato.css';
 @import '/css/index/bicileta.css';
-
-
-/*   PAGE BICICLETA    */
-
-@import '/css/bicicleta/bicicletas.css';
-@import '/css/bicicleta/bicicleta-01.css';
-@import '/css/bicicleta/bicicleta-02.css';
-@import '/css/bicicleta/bicicleta-03.css';

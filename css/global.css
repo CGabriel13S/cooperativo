@@ -53,3 +53,15 @@ button{
     --cor-p4: #664400;
     --cor-p5: #332200;
 }
+
+label{
+    font-size: 1.4rem;
+    display: block;
+}
+
+input{
+    padding: 0.6rem;
+    border: 1px solid var(--cor-3);
+    background: var(--cor-2);
+    font-size: 1.3rem;
+}

@@ -14,7 +14,7 @@ header .container{
     font-weight: bolder;
 }
 
-.container > ul{
+ .container > ul{
     font-size: 1.3rem;
     display: flex;
     gap: 1rem;
@@ -24,4 +24,16 @@ header .container{
 ul a{
     color: white;
     font-weight: bolder;
+    position: relative;
+}
+
+header ul a::after{
+    margin-top: 0.5rem;
+    content: "";
+    width: 73%;
+    height: 1px;
+    background-color: var(--cor-0);
+    display: block;
+    position: absolute;
+    left: 17px;
 }
